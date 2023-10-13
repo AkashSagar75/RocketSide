@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://127.0.0.1:5500/DavaBasic/AdvanceCSS/Parallax.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <link rel="stylesheet" href="./Parallax Website1_files/parallax.css">
+<!--https://www.squarespace.com/website-design/?channel=display_nonprogrammatic&subchannel=unsplash&campaign=29090009&subcampaign=365106842_556132581&source=183807839&utm_medium=display_nonprogrammatic&utm_source=unsplash&utm_content=-->
+</head>
+<body>
+    <section class="pic1">
+        <div class="pictext">
+            <span class="textbg">Parallax Website</span>
+        </div>
+    </section>
+    <section class="section section-light">
+        <h2>Section one</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id sed nostrum iure facere accusamus recusandae quisquam sit enim. Eum aspernatur molestias voluptatem sapiente sunt! Autem tenetur culpa, nam asperiores quidem, rerum repudiandae est ipsum modi voluptates porro officia tempore atque ea laboriosam. Nesciunt eius dolorum tenetur. Incidunt eveniet veritatis, provident tempora dolorum doloribus dignissimos nobis quia deleniti cum magnam. Aspernatur soluta illum rerum, ipsam eligendi iusto provident hic mollitia neque nobis exercitationem, excepturi facere vel dolorum similique doloribus sit quasi quo voluptas expedita voluptate nemo veritatis. In, perferendis at possimus esse numquam blanditiis laborum quo quam error, aliquid natus ullam!</p>
+    </section>
+    <section class="pic2">
+        <div class="pictext">
+            <span class="textbg">
+                Parallax Natrue
+            </span>
+        </div>
+    </section>
+    <section class="section section-light">
+        <h2>Second one</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officiis rerum neque reprehenderit voluptates. Omnis ad itaque numquam atque aliquid veniam eius voluptatibus error cupiditate placeat hic fugiat, soluta natus quia quae a temporibus est quod aspernatur! Ipsam quibusdam explicabo dolores ducimus repudiandae tenetur mollitia eos, rerum sunt earum dolore quisquam nihil accusamus esse aliquid quas itaque eligendi necessitatibus voluptatem quos corporis iure! Et expedita cumque praesentium nobis, nam quos accusamus quam. Cupiditate doloribus, quisquam est saepe corrupti deleniti consequatur nobis accusamus. Labore laboriosam odit soluta expedita sint ad ipsum provident veniam ab, dolorem, dolores aliquid similique aut modi iste?</p>
+    </section>
+    <section class="pic3">
+        <div class="pictext">
+            <span class="textbg">
+                Parallax behavoure
+            </span>
+        </div>
+    </section>
+    <section class="section section-light">
+        <h2>Thrid one</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officiis rerum neque reprehenderit voluptates. Omnis ad itaque numquam atque aliquid veniam eius voluptatibus error cupiditate placeat hic fugiat, soluta natus quia quae a temporibus est quod aspernatur! Ipsam quibusdam explicabo dolores ducimus repudiandae tenetur mollitia eos, rerum sunt earum dolore quisquam nihil accusamus esse aliquid quas itaque eligendi necessitatibus voluptatem quos corporis iure! Et expedita cumque praesentium nobis, nam quos accusamus quam. Cupiditate doloribus, quisquam est saepe corrupti deleniti consequatur nobis accusamus. Labore laboriosam odit soluta expedita sint ad ipsum provident veniam ab, dolorem, dolores aliquid similique aut modi iste?</p>
+    </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
